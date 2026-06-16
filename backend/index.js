@@ -19,7 +19,7 @@ console.log("Using port:", port)
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: ["https://lms-frontend-81s1.onrender.com"],
+    origin: ["https://lms-frontend-81s1.onrender.com","https://lms-frontend-81s1.onrender.com"],
     credentials: true
 }))
 app.use("/api/auth", authRouter)
