@@ -28,7 +28,7 @@ import CompletedCourses from './pages/CompletedCourses'
 import getAllReviews from './customHooks/getAllReviews'
 import ChatBot from './components/ChatBot'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://lms-backend-cswc.onrender.com"
 
 function App() {
   
